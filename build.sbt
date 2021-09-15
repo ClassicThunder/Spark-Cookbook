@@ -1,11 +1,7 @@
-name := "SparkTest"
+name := "sparktest"
 
 version := "0.1"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.10"
 
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.0"
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5"
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
-
-resolvers += "Artima Maven Repository" at "http://repo.artima.com/releases"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.1.2"
